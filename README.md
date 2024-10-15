@@ -4,7 +4,7 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone https://bitbucket.org/livetree/web3nscfdomainqueries.git
+git clone https://github.com/3nsai/3NS.git
 ```
 
 ### 2. Navigate to Smart Contracts Directory
