@@ -1,0 +1,5 @@
+[
+  "function available(string) returns (bool)",
+  "function register(string,address,uint256,address,bytes[],bool,uint16)",
+  "function renew(string,uint256)"
+]

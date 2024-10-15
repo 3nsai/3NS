@@ -1,0 +1,10 @@
+[
+  "constructor(string)",
+  "event MetadataUpdate(uint256,string)",
+  "event OwnershipTransferred(address indexed,address indexed)",
+  "function owner() view returns (address)",
+  "function renounceOwnership()",
+  "function setUri(uint256,string)",
+  "function transferOwnership(address)",
+  "function uri(uint256) view returns (string)"
+]

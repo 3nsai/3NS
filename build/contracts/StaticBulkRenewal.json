@@ -1,0 +1,5 @@
+[
+  "constructor(address)",
+  "function renewAll(string[],uint256)",
+  "function supportsInterface(bytes4) pure returns (bool)"
+]

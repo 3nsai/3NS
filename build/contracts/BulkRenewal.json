@@ -1,0 +1,10 @@
+[
+  "constructor(address)",
+  "event OwnershipTransferred(address indexed,address indexed)",
+  "function ens() view returns (address)",
+  "function owner() view returns (address)",
+  "function renewAll(string[],uint256)",
+  "function renounceOwnership()",
+  "function supportsInterface(bytes4) pure returns (bool)",
+  "function transferOwnership(address)"
+]

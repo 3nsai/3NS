@@ -1,0 +1,1 @@
+## Removed the ENSRegistryWithFallback.sol smart contract as it's not needed.

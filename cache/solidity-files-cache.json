@@ -1,0 +1,6993 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnsregistrar/DNSClaimChecker.sol": {
+      "lastModificationDate": 1727691481047,
+      "contentHash": "b5968efbe7fcbe4549b64c91fb6f8641",
+      "sourceName": "contracts/dnsregistrar/DNSClaimChecker.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../dnssec-oracle/DNSSEC.sol",
+        "../dnssec-oracle/RRUtils.sol",
+        "../utils/BytesUtils.sol",
+        "../utils/HexUtils.sol",
+        "@ensdomains/buffer/contracts/Buffer.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "DNSClaimChecker"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnssec-oracle/DNSSEC.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "72ac8dae8e90d3050c2e31c42f409c9b",
+      "sourceName": "contracts/dnssec-oracle/DNSSEC.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "DNSSEC"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnssec-oracle/RRUtils.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "7ce873e7de2a25eae23605c5c94bd126",
+      "sourceName": "contracts/dnssec-oracle/RRUtils.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../utils/BytesUtils.sol",
+        "@ensdomains/buffer/contracts/Buffer.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "RRUtils"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/utils/BytesUtils.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "e82dc16aa16755a978b1ffb60eeb23f3",
+      "sourceName": "contracts/utils/BytesUtils.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "BytesUtils"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/utils/HexUtils.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "d534229181e02ab4762c9f5c91e34090",
+      "sourceName": "contracts/utils/HexUtils.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "HexUtils"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@ensdomains/buffer/contracts/Buffer.sol": {
+      "lastModificationDate": 1727691766146,
+      "contentHash": "d3d00f20f206848f1e90d596ebcc557b",
+      "sourceName": "@ensdomains/buffer/contracts/Buffer.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Buffer"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnsregistrar/DNSRegistrar.sol": {
+      "lastModificationDate": 1727691481047,
+      "contentHash": "db6d76fb7084b7932b18e6bbb3e4621e",
+      "sourceName": "contracts/dnsregistrar/DNSRegistrar.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+        "@ensdomains/buffer/contracts/Buffer.sol",
+        "../dnssec-oracle/DNSSEC.sol",
+        "../dnssec-oracle/RRUtils.sol",
+        "../registry/ENSRegistry.sol",
+        "../root/Root.sol",
+        "../resolvers/profiles/AddrResolver.sol",
+        "../utils/BytesUtils.sol",
+        "./DNSClaimChecker.sol",
+        "./PublicSuffixList.sol",
+        "./IDNSRegistrar.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "DNSRegistrar"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/registry/ENSRegistry.sol": {
+      "lastModificationDate": 1727695410556,
+      "contentHash": "839ef94a85ff41fe7e6ae3b84de44cbe",
+      "sourceName": "contracts/registry/ENSRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./ENS.sol",
+        "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "ENSRegistry"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/root/Root.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "6afc8d9bcdf69af0f2149f333706ab7e",
+      "sourceName": "contracts/root/Root.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../registry/ENS.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "./Controllable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Root"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/profiles/AddrResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "0e468223eb21a28b39da0108a56a7f86",
+      "sourceName": "contracts/resolvers/profiles/AddrResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ResolverBase.sol",
+        "./IAddrResolver.sol",
+        "./IAddressResolver.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "AddrResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnsregistrar/PublicSuffixList.sol": {
+      "lastModificationDate": 1727691481047,
+      "contentHash": "ea4453aee9dd691bd99088989261745e",
+      "sourceName": "contracts/dnsregistrar/PublicSuffixList.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "PublicSuffixList"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnsregistrar/IDNSRegistrar.sol": {
+      "lastModificationDate": 1727691481047,
+      "contentHash": "aad81426cab4266155e1078bb96f73e8",
+      "sourceName": "contracts/dnsregistrar/IDNSRegistrar.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../dnssec-oracle/DNSSEC.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IDNSRegistrar"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+      "lastModificationDate": 1727691767562,
+      "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/registry/ENS.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "34190b5402ca5d874183275e7eae4761",
+      "sourceName": "contracts/registry/ENS.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "ENS"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol": {
+      "lastModificationDate": 1727696642671,
+      "contentHash": "c50df4f62eb9ef48d89b3a48a57e3bf5",
+      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/draft-IERC1822Upgradeable.sol",
+        "../ERC1967/ERC1967UpgradeUpgradeable.sol",
+        "./Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "UUPSUpgradeable"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts-upgradeable/interfaces/draft-IERC1822Upgradeable.sol": {
+      "lastModificationDate": 1727696642651,
+      "contentHash": "a6883cfd85607b16c121a02728369eb3",
+      "sourceName": "@openzeppelin/contracts-upgradeable/interfaces/draft-IERC1822Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1822ProxiableUpgradeable"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol": {
+      "lastModificationDate": 1727696642655,
+      "contentHash": "e186f91201ca317278fffbf1ea60cea0",
+      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../beacon/IBeaconUpgradeable.sol",
+        "../../interfaces/IERC1967Upgradeable.sol",
+        "../../interfaces/draft-IERC1822Upgradeable.sol",
+        "../../utils/AddressUpgradeable.sol",
+        "../../utils/StorageSlotUpgradeable.sol",
+        "../utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.2"
+      ],
+      "artifacts": [
+        "ERC1967UpgradeUpgradeable"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol": {
+      "lastModificationDate": 1727696642671,
+      "contentHash": "b0970a564d121abf9adfff8d1a01eb16",
+      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../utils/AddressUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.2"
+      ],
+      "artifacts": [
+        "Initializable"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts-upgradeable/interfaces/IERC1967Upgradeable.sol": {
+      "lastModificationDate": 1727696642663,
+      "contentHash": "a5421a5e611067b9202e83329fbf6fc7",
+      "sourceName": "@openzeppelin/contracts-upgradeable/interfaces/IERC1967Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1967Upgradeable"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts-upgradeable/proxy/beacon/IBeaconUpgradeable.sol": {
+      "lastModificationDate": 1727696642663,
+      "contentHash": "21bffd733b4ca013e125a0ffe2e52254",
+      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/beacon/IBeaconUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IBeaconUpgradeable"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol": {
+      "lastModificationDate": 1727696642651,
+      "contentHash": "c30c805386fda8a42ff515da963d3a95",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.1"
+      ],
+      "artifacts": [
+        "AddressUpgradeable"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol": {
+      "lastModificationDate": 1727696642671,
+      "contentHash": "02cf959b00ba5c650708472f195f8b29",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "StorageSlotUpgradeable"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/root/Controllable.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "9c0ab95876c7df7eb9823db8f437d0f5",
+      "sourceName": "contracts/root/Controllable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Controllable"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1727691767674,
+      "contentHash": "e436cea06129be2c73cda4b1acc848b5",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1727691767206,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/ResolverBase.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "1abdd87256a7252b8869069e2562cbfd",
+      "sourceName": "contracts/resolvers/ResolverBase.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/ERC165.sol",
+        "./profiles/IVersionableResolver.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "ResolverBase"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/profiles/IAddrResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "3f1fad68ada48982f35ef7af2e8a245b",
+      "sourceName": "contracts/resolvers/profiles/IAddrResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "IAddrResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/profiles/IAddressResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "6f8242d10df510af914b58122a33d176",
+      "sourceName": "contracts/resolvers/profiles/IAddressResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "IAddressResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/profiles/IVersionableResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "6bfec345bfec30f11192e357c3f145b4",
+      "sourceName": "contracts/resolvers/profiles/IVersionableResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "IVersionableResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
+      "lastModificationDate": 1727691767334,
+      "contentHash": "0e7db055ce108f9da7bb6686a00287c0",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts/token/ERC1155/IERC1155.sol": {
+      "lastModificationDate": 1727691767542,
+      "contentHash": "d5a8f6e07ca38ec384856cfe9f08a867",
+      "sourceName": "@openzeppelin/contracts/token/ERC1155/IERC1155.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1155"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts/token/ERC1155/extensions/IERC1155MetadataURI.sol": {
+      "lastModificationDate": 1727691767546,
+      "contentHash": "9148c2e10c4efb12c71a7f080da5559b",
+      "sourceName": "@openzeppelin/contracts/token/ERC1155/extensions/IERC1155MetadataURI.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../IERC1155.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1155MetadataURI"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/wrapper/ERC1155Fuse.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "d3426ea044754643b38289e56142dbc3",
+      "sourceName": "contracts/wrapper/ERC1155Fuse.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/ERC165.sol",
+        "@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol",
+        "@openzeppelin/contracts/token/ERC1155/IERC1155.sol",
+        "@openzeppelin/contracts/token/ERC1155/extensions/IERC1155MetadataURI.sol",
+        "@openzeppelin/contracts/utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "~0.8.17"
+      ],
+      "artifacts": [
+        "ERC1155Fuse"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1727691767162,
+      "contentHash": "f31ad6fc4bbf9c06203987220156a6ba",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.1"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol": {
+      "lastModificationDate": 1727691767550,
+      "contentHash": "9f8822b72fe2702979e40160cb6d9636",
+      "sourceName": "@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1155Receiver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/wrapper/NameWrapper.sol": {
+      "lastModificationDate": 1728990062249,
+      "contentHash": "d02952f25d5d802b867c06a40257b0bd",
+      "sourceName": "contracts/wrapper/NameWrapper.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./ERC1155Fuse.sol",
+        "./Controllable.sol",
+        "./INameWrapper.sol",
+        "./INameWrapperUpgrade.sol",
+        "./IMetadataService.sol",
+        "../registry/ENS.sol",
+        "../reverseRegistrar/IReverseRegistrar.sol",
+        "../reverseRegistrar/ReverseClaimer.sol",
+        "../ethregistrar/IBaseRegistrar.sol",
+        "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
+        "@openzeppelin/contracts/token/ERC1155/IERC1155.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "../utils/BytesUtils.sol",
+        "../utils/ERC20Recoverable.sol"
+      ],
+      "versionPragmas": [
+        "~0.8.17"
+      ],
+      "artifacts": [
+        "NameWrapper"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/reverseRegistrar/IReverseRegistrar.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "9575d38eba7403dbeff3eb5fe6eefb04",
+      "sourceName": "contracts/reverseRegistrar/IReverseRegistrar.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "IReverseRegistrar"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/reverseRegistrar/ReverseClaimer.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "a1ca9edf3fbc54304592e1053001f259",
+      "sourceName": "contracts/reverseRegistrar/ReverseClaimer.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../registry/ENS.sol",
+        "../reverseRegistrar/IReverseRegistrar.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.17 <0.9.0"
+      ],
+      "artifacts": [
+        "ReverseClaimer"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/ethregistrar/IBaseRegistrar.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "5d34ef923c86f6769bb7369d13d70f94",
+      "sourceName": "contracts/ethregistrar/IBaseRegistrar.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../registry/ENS.sol",
+        "./IBaseRegistrar.sol",
+        "@openzeppelin/contracts/token/ERC721/IERC721.sol"
+      ],
+      "versionPragmas": [],
+      "artifacts": [
+        "IBaseRegistrar"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/utils/ERC20Recoverable.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "7d1ac7c116331417073894c5b9ee88ff",
+      "sourceName": "contracts/utils/ERC20Recoverable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.17 <0.9.0"
+      ],
+      "artifacts": [
+        "ERC20Recoverable"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/wrapper/Controllable.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "dcd3342565efed1aa2f1f8d3f20183bd",
+      "sourceName": "contracts/wrapper/Controllable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "~0.8.17"
+      ],
+      "artifacts": [
+        "Controllable"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/wrapper/INameWrapper.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "4221ca62232275df3ca728f641cc9c46",
+      "sourceName": "contracts/wrapper/INameWrapper.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../registry/ENS.sol",
+        "../ethregistrar/IBaseRegistrar.sol",
+        "@openzeppelin/contracts/token/ERC1155/IERC1155.sol",
+        "./IMetadataService.sol",
+        "./INameWrapperUpgrade.sol"
+      ],
+      "versionPragmas": [
+        "~0.8.17"
+      ],
+      "artifacts": [
+        "INameWrapper"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/wrapper/IMetadataService.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "c4f9cc5e13f40eeb6884c379639b760a",
+      "sourceName": "contracts/wrapper/IMetadataService.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "~0.8.17"
+      ],
+      "artifacts": [
+        "IMetadataService"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/wrapper/INameWrapperUpgrade.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "11b084a2c37ce20b4b2aa548776721f8",
+      "sourceName": "contracts/wrapper/INameWrapperUpgrade.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "~0.8.17"
+      ],
+      "artifacts": [
+        "INameWrapperUpgrade"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
+      "lastModificationDate": 1727691767610,
+      "contentHash": "c22d4395e33763de693fd440c6fd10e1",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Receiver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
+      "lastModificationDate": 1727691767594,
+      "contentHash": "eb7e61db29f31d88b3c1cef1b063d338",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1727691767574,
+      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
+      "lastModificationDate": 1727691767418,
+      "contentHash": "190f627b9302b9602d3a313e28205cc5",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IERC721.sol",
+        "./IERC721Receiver.sol",
+        "./extensions/IERC721Metadata.sol",
+        "../../utils/Address.sol",
+        "../../utils/Context.sol",
+        "../../utils/Strings.sol",
+        "../../utils/introspection/ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC721"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
+      "lastModificationDate": 1727691767730,
+      "contentHash": "396031251978f8febfd90cb62cb240ec",
+      "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./math/Math.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
+      "lastModificationDate": 1727691767602,
+      "contentHash": "efbc0d15b80a74e34dbe8da0f3e879bb",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../IERC721.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Metadata"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts/utils/math/Math.sol": {
+      "lastModificationDate": 1727691767662,
+      "contentHash": "b9c58920ce74d6dc819161786112e7ee",
+      "sourceName": "@openzeppelin/contracts/utils/math/Math.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/wrapper/mocks/UpgradedNameWrapperMock.sol": {
+      "lastModificationDate": 1728989870561,
+      "contentHash": "0b38ab9b94326a8ae070c32201554c22",
+      "sourceName": "contracts/wrapper/mocks/UpgradedNameWrapperMock.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../INameWrapperUpgrade.sol",
+        "../../registry/ENS.sol",
+        "../../ethregistrar/IBaseRegistrar.sol",
+        "../../utils/BytesUtils.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "UpgradedNameWrapperMock"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/test/dnssec-oracle/TestRRUtils.sol": {
+      "lastModificationDate": 1727691481095,
+      "contentHash": "4d5fe3dafe5ec86da432180977fdedf8",
+      "sourceName": "test/dnssec-oracle/TestRRUtils.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../contracts/dnssec-oracle/RRUtils.sol",
+        "../../contracts/utils/BytesUtils.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "TestRRUtils"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/test/dnssec-oracle/TestBytesUtils.sol": {
+      "lastModificationDate": 1727691481095,
+      "contentHash": "ba4a15b7adfc81472327e9c99e1dfba4",
+      "sourceName": "test/dnssec-oracle/TestBytesUtils.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../contracts/dnssec-oracle/RRUtils.sol",
+        "../../contracts/utils/BytesUtils.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "TestBytesUtils"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/profiles/DNSResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "615be5d47b962507a300be6049d73df9",
+      "sourceName": "contracts/resolvers/profiles/DNSResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ResolverBase.sol",
+        "../../dnssec-oracle/RRUtils.sol",
+        "./IDNSRecordResolver.sol",
+        "./IDNSZoneResolver.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "DNSResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/profiles/IDNSRecordResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "c61d99362d86e11c143e9035d895a1da",
+      "sourceName": "contracts/resolvers/profiles/IDNSRecordResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "IDNSRecordResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/profiles/IDNSZoneResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "4e7595256b231fed30f6c9945f1efa45",
+      "sourceName": "contracts/resolvers/profiles/IDNSZoneResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "IDNSZoneResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/Resolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "5714c29b34e7081d6ccd966e7e885a1b",
+      "sourceName": "contracts/resolvers/Resolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+        "./profiles/IABIResolver.sol",
+        "./profiles/IAddressResolver.sol",
+        "./profiles/IAddrResolver.sol",
+        "./profiles/IContentHashResolver.sol",
+        "./profiles/IDNSRecordResolver.sol",
+        "./profiles/IDNSZoneResolver.sol",
+        "./profiles/IInterfaceResolver.sol",
+        "./profiles/INameResolver.sol",
+        "./profiles/IPubkeyResolver.sol",
+        "./profiles/ITextResolver.sol",
+        "./profiles/IExtendedResolver.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "Resolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/profiles/IABIResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "8aafef3ad6058617f5b719861e406a4d",
+      "sourceName": "contracts/resolvers/profiles/IABIResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "IABIResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/profiles/IContentHashResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "f9e7dc8b82306ecd1504ba9b10716631",
+      "sourceName": "contracts/resolvers/profiles/IContentHashResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "IContentHashResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/profiles/IInterfaceResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "a7500941f527de797e9d353be520ef1c",
+      "sourceName": "contracts/resolvers/profiles/IInterfaceResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "IInterfaceResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/profiles/INameResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "3765ef37775da4202d0bc972a5e3a626",
+      "sourceName": "contracts/resolvers/profiles/INameResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "INameResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/profiles/IPubkeyResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "51e1427b16cc36011b47d224dd7a9292",
+      "sourceName": "contracts/resolvers/profiles/IPubkeyResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "IPubkeyResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/profiles/ITextResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "db2783ebbe0ddc0a8f69fd69795099c3",
+      "sourceName": "contracts/resolvers/profiles/ITextResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "ITextResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/profiles/IExtendedResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "5fb946efa195615f0fbe2746a4e76ff6",
+      "sourceName": "contracts/resolvers/profiles/IExtendedResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IExtendedResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/utils/UniversalResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "bfb3d17dd9f9ff1dd1152ea7749f79d4",
+      "sourceName": "contracts/utils/UniversalResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/ERC165.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "./LowLevelCallUtils.sol",
+        "../registry/ENS.sol",
+        "../resolvers/profiles/IExtendedResolver.sol",
+        "../resolvers/Resolver.sol",
+        "../utils/BytesUtils.sol",
+        "./NameEncoder.sol",
+        "./HexUtils.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.17 <0.9.0"
+      ],
+      "artifacts": [
+        "BatchGateway",
+        "UniversalResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/utils/LowLevelCallUtils.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "75fb1bc822d75b52328ef09789d0946f",
+      "sourceName": "contracts/utils/LowLevelCallUtils.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.13"
+      ],
+      "artifacts": [
+        "LowLevelCallUtils"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/utils/NameEncoder.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "7cb52b5a39db797434955cf3f402b524",
+      "sourceName": "contracts/utils/NameEncoder.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../utils/BytesUtils.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.13"
+      ],
+      "artifacts": [
+        "NameEncoder"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/test/utils/mocks/MockOffchainResolver.sol": {
+      "lastModificationDate": 1727691481095,
+      "contentHash": "274d37324faaf92678f48d315eedbe0f",
+      "sourceName": "test/utils/mocks/MockOffchainResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/ERC165.sol",
+        "../../../contracts/resolvers/profiles/IExtendedResolver.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "MockOffchainResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/test/utils/mocks/DummyOffchainResolver.sol": {
+      "lastModificationDate": 1727691481095,
+      "contentHash": "2fab397872f7b66c44509a75c01d8a6c",
+      "sourceName": "test/utils/mocks/DummyOffchainResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/ERC165.sol",
+        "../../../contracts/resolvers/profiles/ITextResolver.sol",
+        "../../../contracts/resolvers/profiles/IExtendedResolver.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "DummyOffchainResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/profiles/TextResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "f4e649e282afefd6b74742953e4a1182",
+      "sourceName": "contracts/resolvers/profiles/TextResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ResolverBase.sol",
+        "./ITextResolver.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "TextResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/profiles/PubkeyResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "dc219f4ed7c3e9423c1b69883192e17a",
+      "sourceName": "contracts/resolvers/profiles/PubkeyResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ResolverBase.sol",
+        "./IPubkeyResolver.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "PubkeyResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/PublicResolver.sol": {
+      "lastModificationDate": 1727777752016,
+      "contentHash": "eed879747375f211679cb836c86cc954",
+      "sourceName": "contracts/resolvers/PublicResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../registry/ENS.sol",
+        "./profiles/ABIResolver.sol",
+        "./profiles/AddrResolver.sol",
+        "./profiles/ContentHashResolver.sol",
+        "./profiles/DNSResolver.sol",
+        "./profiles/InterfaceResolver.sol",
+        "./profiles/NameResolver.sol",
+        "./profiles/PubkeyResolver.sol",
+        "./profiles/TextResolver.sol",
+        "./Multicallable.sol",
+        "../wrapper/INameWrapper.sol",
+        "../reverseRegistrar/IReverseRegistrar.sol",
+        "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.17 <0.9.0"
+      ],
+      "artifacts": [
+        "PublicResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/profiles/ABIResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "3797d3c26a69954b8a5314486c0ffebc",
+      "sourceName": "contracts/resolvers/profiles/ABIResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IABIResolver.sol",
+        "../ResolverBase.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "ABIResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/profiles/ContentHashResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "345e69e7cd01fd0fe4d22fb2f93e3af3",
+      "sourceName": "contracts/resolvers/profiles/ContentHashResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ResolverBase.sol",
+        "./IContentHashResolver.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "ContentHashResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/profiles/InterfaceResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "044a035d03882bf13dab46b830c55340",
+      "sourceName": "contracts/resolvers/profiles/InterfaceResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+        "../ResolverBase.sol",
+        "./AddrResolver.sol",
+        "./IInterfaceResolver.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "InterfaceResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/profiles/NameResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "6ae8a960a85d325cea01338b108f4628",
+      "sourceName": "contracts/resolvers/profiles/NameResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ResolverBase.sol",
+        "./INameResolver.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "NameResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/Multicallable.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "6ba1e69bee76c9860d95cb605b30e1c2",
+      "sourceName": "contracts/resolvers/Multicallable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IMulticallable.sol",
+        "@openzeppelin/contracts/utils/introspection/ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Multicallable"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/IMulticallable.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "bf79048d92f7f82da67612c3ccdb8a1a",
+      "sourceName": "contracts/resolvers/IMulticallable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IMulticallable"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/OwnedResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "5b1093c2a932de25a3c1424144c6f8ef",
+      "sourceName": "contracts/resolvers/OwnedResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "./profiles/ABIResolver.sol",
+        "./profiles/AddrResolver.sol",
+        "./profiles/ContentHashResolver.sol",
+        "./profiles/DNSResolver.sol",
+        "./profiles/InterfaceResolver.sol",
+        "./profiles/NameResolver.sol",
+        "./profiles/PubkeyResolver.sol",
+        "./profiles/TextResolver.sol",
+        "./profiles/ExtendedResolver.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "OwnedResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/profiles/ExtendedResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "3c8615b4c51a90cca9ffd34f825c1bd4",
+      "sourceName": "contracts/resolvers/profiles/ExtendedResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "ExtendedResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1727691767354,
+      "contentHash": "834a0dde221759af42b030253315b086",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./extensions/IERC20Metadata.sol",
+        "../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+      "lastModificationDate": 1727691767578,
+      "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/ethregistrar/ETHRegistrarController.sol": {
+      "lastModificationDate": 1728989974955,
+      "contentHash": "374881910ae39a870734d58216c0a0a3",
+      "sourceName": "contracts/ethregistrar/ETHRegistrarController.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./BaseRegistrarImplementation.sol",
+        "../utils/StringUtils.sol",
+        "../resolvers/Resolver.sol",
+        "../registry/ENS.sol",
+        "../reverseRegistrar/ReverseRegistrar.sol",
+        "./IETHRegistrarController.sol",
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "../wrapper/INameWrapper.sol",
+        "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "~0.8.17"
+      ],
+      "artifacts": [
+        "ETHRegistrarController"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/utils/StringUtils.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "b867d36e3a478886b024ca5bc0e0632b",
+      "sourceName": "contracts/utils/StringUtils.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "StringUtils"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/reverseRegistrar/ReverseRegistrar.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "4453b40bd94f9d57252dd5f380fb1d91",
+      "sourceName": "contracts/reverseRegistrar/ReverseRegistrar.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../registry/ENS.sol",
+        "./IReverseRegistrar.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "../root/Controllable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "NameResolver",
+        "ReverseRegistrar"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/ethregistrar/BaseRegistrarImplementation.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "426fdf382a4008105a1fdb276b083ad6",
+      "sourceName": "contracts/ethregistrar/BaseRegistrarImplementation.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../registry/ENS.sol",
+        "./IBaseRegistrar.sol",
+        "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "BaseRegistrarImplementation"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/ethregistrar/IETHRegistrarController.sol": {
+      "lastModificationDate": 1727874279218,
+      "contentHash": "e4305a6a06c2b644cbb4914bfb3b81f4",
+      "sourceName": "contracts/ethregistrar/IETHRegistrarController.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IPriceOracle.sol"
+      ],
+      "versionPragmas": [
+        "~0.8.17"
+      ],
+      "artifacts": [
+        "IETHRegistrarController"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/ethregistrar/IPriceOracle.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "e3e4a2a0b4b9d7107d35991c3e2c278c",
+      "sourceName": "contracts/ethregistrar/IPriceOracle.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.17 <0.9.0"
+      ],
+      "artifacts": [
+        "IPriceOracle"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/ethregistrar/StaticBulkRenewal.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "5ac122aee7fe3ae6de252d1c50e7b931",
+      "sourceName": "contracts/ethregistrar/StaticBulkRenewal.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./ETHRegistrarController.sol",
+        "./IBulkRenewal.sol",
+        "./IPriceOracle.sol",
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "~0.8.17"
+      ],
+      "artifacts": [
+        "StaticBulkRenewal"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/ethregistrar/IBulkRenewal.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "f3c0a3c67de447cb97e750abc68d7872",
+      "sourceName": "contracts/ethregistrar/IBulkRenewal.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": [
+        "IBulkRenewal"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/ethregistrar/StablePriceOracle.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "76dc28ffd225511bf16aaf446a50172f",
+      "sourceName": "contracts/ethregistrar/StablePriceOracle.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IPriceOracle.sol",
+        "../utils/StringUtils.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "~0.8.17"
+      ],
+      "artifacts": [
+        "AggregatorInterface",
+        "StablePriceOracle"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/test/utils/mocks/StringUtilsTest.sol": {
+      "lastModificationDate": 1727691481095,
+      "contentHash": "fdcc7b9e4efc7122ba17b797f244123c",
+      "sourceName": "test/utils/mocks/StringUtilsTest.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../../contracts/utils/StringUtils.sol"
+      ],
+      "versionPragmas": [],
+      "artifacts": [
+        "StringUtilsTest"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/ethregistrar/LinearPremiumPriceOracle.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "b97193a25377460d0baeda62387d75ea",
+      "sourceName": "contracts/ethregistrar/LinearPremiumPriceOracle.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./SafeMath.sol",
+        "./StablePriceOracle.sol"
+      ],
+      "versionPragmas": [
+        "~0.8.17"
+      ],
+      "artifacts": [
+        "LinearPremiumPriceOracle"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/ethregistrar/SafeMath.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "b66b94454505f59b421db64fe9dab718",
+      "sourceName": "contracts/ethregistrar/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "~0.8.17"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/ethregistrar/ExponentialPremiumPriceOracle.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "789f0601616e1022a353386bfd32bdfb",
+      "sourceName": "contracts/ethregistrar/ExponentialPremiumPriceOracle.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./StablePriceOracle.sol"
+      ],
+      "versionPragmas": [
+        "~0.8.17"
+      ],
+      "artifacts": [
+        "ExponentialPremiumPriceOracle"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/ethregistrar/BulkRenewal.sol": {
+      "lastModificationDate": 1728989882601,
+      "contentHash": "6fa950b1857982155ca2111babe644fc",
+      "sourceName": "contracts/ethregistrar/BulkRenewal.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../registry/ENS.sol",
+        "./ETHRegistrarController.sol",
+        "./IETHRegistrarController.sol",
+        "../resolvers/Resolver.sol",
+        "./IBulkRenewal.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "~0.8.17"
+      ],
+      "artifacts": [
+        "BulkRenewal"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/test/reverseRegistrar/mocks/MockReverseClaimerImplementer.sol": {
+      "lastModificationDate": 1727691481095,
+      "contentHash": "c8e05cdd0c4511e1df6ce05b747bb331",
+      "sourceName": "test/reverseRegistrar/mocks/MockReverseClaimerImplementer.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../../contracts/registry/ENS.sol",
+        "../../../contracts/reverseRegistrar/ReverseClaimer.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.17 <0.9.0"
+      ],
+      "artifacts": [
+        "MockReverseClaimerImplementer"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/wrapper/test/NameGriefer.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "79084659d1f21e9bce47f96336689bbe",
+      "sourceName": "contracts/wrapper/test/NameGriefer.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../INameWrapper.sol",
+        "../../registry/ENS.sol",
+        "../../utils/BytesUtils.sol",
+        "@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol"
+      ],
+      "versionPragmas": [
+        "~0.8.17"
+      ],
+      "artifacts": [
+        "NameGriefer"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/wrapper/test/TestNameWrapperReentrancy.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "4f40447d5695182d3636f0e89d1b92f8",
+      "sourceName": "contracts/wrapper/test/TestNameWrapperReentrancy.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../INameWrapper.sol",
+        "@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol",
+        "@openzeppelin/contracts/utils/introspection/ERC165.sol"
+      ],
+      "versionPragmas": [
+        "~0.8.17"
+      ],
+      "artifacts": [
+        "TestNameWrapperReentrancy"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/wrapper/mocks/ERC1155ReceiverMock.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "1db52b495b548d2894e49d1cb7d8c7c7",
+      "sourceName": "contracts/wrapper/mocks/ERC1155ReceiverMock.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol",
+        "@openzeppelin/contracts/utils/introspection/ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC1155ReceiverMock"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/wrapper/mocks/TestUnwrap.sol": {
+      "lastModificationDate": 1728989860109,
+      "contentHash": "98e283ee0248908d0c914e7ac1f38431",
+      "sourceName": "contracts/wrapper/mocks/TestUnwrap.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../registry/ENS.sol",
+        "../../ethregistrar/IBaseRegistrar.sol",
+        "../../utils/BytesUtils.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "TestUnwrap"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/registry/TestRegistrar.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "d2f7559809996927c45d92663912a27d",
+      "sourceName": "contracts/registry/TestRegistrar.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./ENS.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "TestRegistrar"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/registry/FIFSRegistrar.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "2f00b2ff67afdf7a63a91601892fdab2",
+      "sourceName": "contracts/registry/FIFSRegistrar.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./ENS.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "FIFSRegistrar"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnsregistrar/OffchainDNSResolver.sol": {
+      "lastModificationDate": 1727691481047,
+      "contentHash": "82c505d6af3402a4d785fc3cfec7a42e",
+      "sourceName": "contracts/dnsregistrar/OffchainDNSResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../contracts/resolvers/profiles/IAddrResolver.sol",
+        "../../contracts/resolvers/profiles/IExtendedResolver.sol",
+        "../../contracts/resolvers/profiles/IExtendedDNSResolver.sol",
+        "@openzeppelin/contracts/utils/introspection/ERC165.sol",
+        "../dnssec-oracle/DNSSEC.sol",
+        "../dnssec-oracle/RRUtils.sol",
+        "../registry/ENSRegistry.sol",
+        "../utils/HexUtils.sol",
+        "../utils/BytesUtils.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "../utils/LowLevelCallUtils.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IDNSGateway",
+        "OffchainDNSResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/profiles/IExtendedDNSResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "8bb99a325a2bcefb98700fe3e986699b",
+      "sourceName": "contracts/resolvers/profiles/IExtendedDNSResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IExtendedDNSResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnsregistrar/mocks/DummyNonCCIPAwareResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "835f307ce90d4c859097f960824f7f55",
+      "sourceName": "contracts/dnsregistrar/mocks/DummyNonCCIPAwareResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/ERC165.sol",
+        "../OffchainDNSResolver.sol",
+        "../../resolvers/profiles/IExtendedResolver.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "DummyNonCCIPAwareResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/profiles/ExtendedDNSResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "04ddccbab0e18c9590b0614d62607c07",
+      "sourceName": "contracts/resolvers/profiles/ExtendedDNSResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+        "@openzeppelin/contracts/utils/Strings.sol",
+        "../../resolvers/profiles/IExtendedDNSResolver.sol",
+        "../../resolvers/profiles/IAddressResolver.sol",
+        "../../resolvers/profiles/IAddrResolver.sol",
+        "../../resolvers/profiles/ITextResolver.sol",
+        "../../utils/HexUtils.sol",
+        "../../utils/BytesUtils.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "ExtendedDNSResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/utils/TestHexUtils.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "07469abc11f4c5d6951508ff132ab9a2",
+      "sourceName": "contracts/utils/TestHexUtils.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./HexUtils.sol"
+      ],
+      "versionPragmas": [
+        "~0.8.17"
+      ],
+      "artifacts": [
+        "TestHexUtils"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnsregistrar/mocks/DummyExtendedDNSSECResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "e1ea533afa822541fb341706b5634dfd",
+      "sourceName": "contracts/dnsregistrar/mocks/DummyExtendedDNSSECResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../resolvers/profiles/IExtendedDNSResolver.sol",
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "DummyExtendedDNSSECResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnssec-oracle/DNSSECImpl.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "3920f19286033663435e2032996f89c7",
+      "sourceName": "contracts/dnssec-oracle/DNSSECImpl.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./RRUtils.sol",
+        "./DNSSEC.sol",
+        "./algorithms/Algorithm.sol",
+        "./digests/Digest.sol",
+        "../utils/BytesUtils.sol",
+        "@ensdomains/buffer/contracts/Buffer.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "DNSSECImpl"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnssec-oracle/Owned.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "e88b10552c418b9a22d147058b8c5be8",
+      "sourceName": "contracts/dnssec-oracle/Owned.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Owned"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnssec-oracle/algorithms/Algorithm.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "edb5a6d56c44c32cb6b5f4a0bc8cad07",
+      "sourceName": "contracts/dnssec-oracle/algorithms/Algorithm.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Algorithm"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnssec-oracle/digests/Digest.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "1de31b03d4cda8b9c2f7b31f902158f8",
+      "sourceName": "contracts/dnssec-oracle/digests/Digest.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Digest"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnssec-oracle/digests/SHA256Digest.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "533b96b688e035e733688996031c5a7e",
+      "sourceName": "contracts/dnssec-oracle/digests/SHA256Digest.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Digest.sol",
+        "../../utils/BytesUtils.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "SHA256Digest"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnssec-oracle/digests/SHA1Digest.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "9e82feaa0a757b609128e4a7b90c2b40",
+      "sourceName": "contracts/dnssec-oracle/digests/SHA1Digest.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Digest.sol",
+        "../../utils/BytesUtils.sol",
+        "@ensdomains/solsha1/contracts/SHA1.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "SHA1Digest"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@ensdomains/solsha1/contracts/SHA1.sol": {
+      "lastModificationDate": 1727691765338,
+      "contentHash": "638f88057a171461b5a00dc84fd024a5",
+      "sourceName": "@ensdomains/solsha1/contracts/SHA1.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "SHA1"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnssec-oracle/algorithms/RSASHA1Algorithm.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "59966ac387d3026043bc0f0d70548ce3",
+      "sourceName": "contracts/dnssec-oracle/algorithms/RSASHA1Algorithm.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Algorithm.sol",
+        "./RSAVerify.sol",
+        "../../utils/BytesUtils.sol",
+        "@ensdomains/solsha1/contracts/SHA1.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "RSASHA1Algorithm"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnssec-oracle/algorithms/RSAVerify.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "de9dd4150a7c077289b33fd936ba2a98",
+      "sourceName": "contracts/dnssec-oracle/algorithms/RSAVerify.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./ModexpPrecompile.sol",
+        "../../utils/BytesUtils.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "RSAVerify"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnssec-oracle/algorithms/ModexpPrecompile.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "1e5391028cc1c778dd2c8bd72e5ea9ef",
+      "sourceName": "contracts/dnssec-oracle/algorithms/ModexpPrecompile.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "ModexpPrecompile"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnssec-oracle/algorithms/RSASHA256Algorithm.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "134553d72d6fd24f41ffc2ee9436163a",
+      "sourceName": "contracts/dnssec-oracle/algorithms/RSASHA256Algorithm.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Algorithm.sol",
+        "./RSAVerify.sol",
+        "../../utils/BytesUtils.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "RSASHA256Algorithm"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnssec-oracle/algorithms/P256SHA256Algorithm.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "dbec4cb8835f6e07ec96d4ca2368670a",
+      "sourceName": "contracts/dnssec-oracle/algorithms/P256SHA256Algorithm.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Algorithm.sol",
+        "./EllipticCurve.sol",
+        "../../utils/BytesUtils.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "P256SHA256Algorithm"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnssec-oracle/algorithms/EllipticCurve.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "b44e57a1e09a587f354b25c7a4aa92c1",
+      "sourceName": "contracts/dnssec-oracle/algorithms/EllipticCurve.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "EllipticCurve"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnssec-oracle/algorithms/DummyAlgorithm.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "3f7d7ea1003dad4498f991d42e49910d",
+      "sourceName": "contracts/dnssec-oracle/algorithms/DummyAlgorithm.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Algorithm.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "DummyAlgorithm"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnssec-oracle/digests/DummyDigest.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "0e74a6c0d1e9a023fed6432566bb02ff",
+      "sourceName": "contracts/dnssec-oracle/digests/DummyDigest.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Digest.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "DummyDigest"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/test/utils/mocks/MockERC20.sol": {
+      "lastModificationDate": 1727691481095,
+      "contentHash": "b98892dd48471a3401b867bee88710b3",
+      "sourceName": "test/utils/mocks/MockERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.17 <0.9.0"
+      ],
+      "artifacts": [
+        "MockERC20"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/wrapper/MetadataService.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "3523f98d6a833020513c5d05eda8d646",
+      "sourceName": "contracts/wrapper/MetadataService.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "~0.8.17"
+      ],
+      "artifacts": [
+        "MetadataService"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnsregistrar/mocks/DummyLegacyTextResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "95a17cf314835a0095a5038805215ece",
+      "sourceName": "contracts/dnsregistrar/mocks/DummyLegacyTextResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../resolvers/profiles/ITextResolver.sol",
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "DummyLegacyTextResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/utils/TestNameEncoder.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "1ff40c02400b13a0e334299f2bba98d6",
+      "sourceName": "contracts/utils/TestNameEncoder.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./NameEncoder.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.13"
+      ],
+      "artifacts": [
+        "TestNameEncoder"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/utils/TestBytesUtils.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "aff947bc00b947517fb445e00ad6ac36",
+      "sourceName": "contracts/utils/TestBytesUtils.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./BytesUtils.sol"
+      ],
+      "versionPragmas": [
+        "~0.8.17"
+      ],
+      "artifacts": [
+        "TestBytesUtils"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnsregistrar/mocks/DummyParser.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "9d47168219cf49ef8e0e1209512b5a99",
+      "sourceName": "contracts/dnsregistrar/mocks/DummyParser.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../utils/BytesUtils.sol",
+        "../RecordParser.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "DummyParser"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnsregistrar/RecordParser.sol": {
+      "lastModificationDate": 1727691481047,
+      "contentHash": "c1edc21edd5a7b15167b482e91744ba8",
+      "sourceName": "contracts/dnsregistrar/RecordParser.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../utils/BytesUtils.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.11"
+      ],
+      "artifacts": [
+        "RecordParser"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnsregistrar/TLDPublicSuffixList.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "62c88206e7f0896bf2ab0e4242e14fec",
+      "sourceName": "contracts/dnsregistrar/TLDPublicSuffixList.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../utils/BytesUtils.sol",
+        "./PublicSuffixList.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "TLDPublicSuffixList"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnsregistrar/SimplePublicSuffixList.sol": {
+      "lastModificationDate": 1727691481047,
+      "contentHash": "b1d90f9ff9e33c210886a0f0ebbbec5d",
+      "sourceName": "contracts/dnsregistrar/SimplePublicSuffixList.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../root/Ownable.sol",
+        "./PublicSuffixList.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "SimplePublicSuffixList"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/root/Ownable.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "f4fbe0e1d7ba81940c7d328e3cd7cef7",
+      "sourceName": "contracts/root/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnsregistrar/mocks/DummyDnsRegistrarDNSSEC.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "9867e94277e1dad466a55f17ec58aaea",
+      "sourceName": "contracts/dnsregistrar/mocks/DummyDnsRegistrarDNSSEC.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "DummyDNSSEC"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/dnssec-oracle/SHA1.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "8ddf1436658e1fcb71f85cd1dea30267",
+      "sourceName": "contracts/dnssec-oracle/SHA1.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "SHA1"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/ethregistrar/DummyOracle.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "7fb6807ab38d19f5d0e1841986adc3cc",
+      "sourceName": "contracts/ethregistrar/DummyOracle.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "DummyOracle"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/ethregistrar/ILinearPremiumPriceOracle.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "62b359986ec36baab0baaa4f07c11336",
+      "sourceName": "contracts/ethregistrar/ILinearPremiumPriceOracle.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "~0.8.17"
+      ],
+      "artifacts": [
+        "ILinearPremiumPriceOracle"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/ethregistrar/TestResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "b7dd3e0229aa526c3358b5f16b596a35",
+      "sourceName": "contracts/ethregistrar/TestResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "TestResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/ethregistrar/mocks/DummyProxyRegistry.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "ac3fdf73648c1487b78840218bb0db33",
+      "sourceName": "contracts/ethregistrar/mocks/DummyProxyRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "DummyProxyRegistry"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/resolvers/mocks/DummyNameWrapper.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "43bd5405f1677a4453980d324fd9671b",
+      "sourceName": "contracts/resolvers/mocks/DummyNameWrapper.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "DummyNameWrapper"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/utils/DummyRevertResolver.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "204d2d0bfef6153fd2f3363d67be1560",
+      "sourceName": "contracts/utils/DummyRevertResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.17 <0.9.0"
+      ],
+      "artifacts": [
+        "DummyRevertResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/wrapper/StaticMetadataService.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "d6aa1907c4f17cc9dd4a52e5fa23da5f",
+      "sourceName": "contracts/wrapper/StaticMetadataService.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "~0.8.17"
+      ],
+      "artifacts": [
+        "StaticMetadataService"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/wrapper/multicall/Multicall3.sol": {
+      "lastModificationDate": 1727691481051,
+      "contentHash": "e2e0dda836e6404a41581d12b0404a35",
+      "sourceName": "contracts/wrapper/multicall/Multicall3.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "~0.8.17"
+      ],
+      "artifacts": [
+        "Multicall3"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/test/registry/mocks/DummyResolver.sol": {
+      "lastModificationDate": 1727691481095,
+      "contentHash": "98e72afccbd912744249b0bced0f03ce",
+      "sourceName": "test/registry/mocks/DummyResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "DummyResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/test/utils/mocks/LegacyResolver.sol": {
+      "lastModificationDate": 1727691481095,
+      "contentHash": "5872031fcba2488397442845cd2e31cc",
+      "sourceName": "test/utils/mocks/LegacyResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.13"
+      ],
+      "artifacts": [
+        "LegacyResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/utils/DummyOldResolver.sol": {
+      "lastModificationDate": 1728990020242,
+      "contentHash": "3fd3b16b34cf95cf1a3d516da14a447e",
+      "sourceName": "contracts/utils/DummyOldResolver.sol",
+      "solcConfig": {
+        "version": "0.4.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.4.11"
+      ],
+      "artifacts": [
+        "DummyOldResolver"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/contracts/DummyProxy.sol": {
+      "lastModificationDate": 1727704234785,
+      "contentHash": "be79d8e680dc6acd05f611050a725345",
+      "sourceName": "contracts/DummyProxy.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.13"
+      ],
+      "artifacts": [
+        "DummyProxy"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol": {
+      "lastModificationDate": 1727691767342,
+      "contentHash": "3fc3c7c0a2956f36e766691bb9473b06",
+      "sourceName": "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../Proxy.sol",
+        "./ERC1967Upgrade.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC1967Proxy"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts/proxy/Proxy.sol": {
+      "lastModificationDate": 1727691767690,
+      "contentHash": "40b3d81a836d50ff47e03893dcaaf204",
+      "sourceName": "@openzeppelin/contracts/proxy/Proxy.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Proxy"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts/proxy/ERC1967/ERC1967Upgrade.sol": {
+      "lastModificationDate": 1727691767342,
+      "contentHash": "6baa887a798e95b14f34e093f117e9b2",
+      "sourceName": "@openzeppelin/contracts/proxy/ERC1967/ERC1967Upgrade.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../beacon/IBeacon.sol",
+        "../../interfaces/draft-IERC1822.sol",
+        "../../utils/Address.sol",
+        "../../utils/StorageSlot.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.2"
+      ],
+      "artifacts": [
+        "ERC1967Upgrade"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts/utils/StorageSlot.sol": {
+      "lastModificationDate": 1727691767730,
+      "contentHash": "f993f8f50186952a59ee5e3a30b68222",
+      "sourceName": "@openzeppelin/contracts/utils/StorageSlot.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "StorageSlot"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts/proxy/beacon/IBeacon.sol": {
+      "lastModificationDate": 1727691767522,
+      "contentHash": "b6bd23bf19e90b771337037706470933",
+      "sourceName": "@openzeppelin/contracts/proxy/beacon/IBeacon.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IBeacon"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts/interfaces/draft-IERC1822.sol": {
+      "lastModificationDate": 1727691767274,
+      "contentHash": "2858d98e74e67987ec81b39605230b74",
+      "sourceName": "@openzeppelin/contracts/interfaces/draft-IERC1822.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1822Proxiable"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol": {
+      "lastModificationDate": 1727696642671,
+      "contentHash": "a70d53f7e468306c02c529ecaa1d59c5",
+      "sourceName": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../utils/ContextUpgradeable.sol",
+        "../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OwnableUpgradeable"
+      ]
+    },
+    "/home/pip/Desktop/web3nscfdomainqueries/smart-contracts/node_modules/@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol": {
+      "lastModificationDate": 1727696642651,
+      "contentHash": "b6dfb72ff1fd764f725ec4db364b1b20",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ContextUpgradeable"
+      ]
+    }
+  }
+}
